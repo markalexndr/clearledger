@@ -1,5 +1,9 @@
 # ClearLedger
 
+## Screenshot
+
+![ClearLedger Screenshot](images/clearledger-screenshot.png)
+
 ClearLedger is a simple privacy-first personal finance snapshot tool.
 
 It allows users to quickly see their financial position by entering four numbers:
