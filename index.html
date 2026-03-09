@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ClearLedger</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>ClearLedger</h1>
+        <p class="subtitle">A simple personal finance snapshot</p>
+
+        <div class="card">
+
+            <h2>Income</h2>
+            <input type="number" id="income" placeholder="Monthly income">
+
+            <h2>Expenses</h2>
+            <input type="number" id="expenses" placeholder="Monthly expenses">
+
+            <h2>Debts</h2>
+            <input type="number" id="debts" placeholder="Total debts">
+
+            <h2>Assets</h2>
+            <input type="number" id="assets" placeholder="Total assets">
+
+            <button id="calculate">Calculate</button>
+            <button id="reset">Reset</button>
+
+        </div>
+
+        <div class="summary">
+
+            <h2>Summary</h2>
+
+            <p>Monthly Balance: <span id="balance">£0</span></p>
+
+            <p>Net Worth: <span id="networth">£0</span></p>
+
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
