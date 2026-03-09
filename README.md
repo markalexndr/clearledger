@@ -81,3 +81,15 @@ README.md
 ## Purpose
 
 This project was created as a lightweight personal finance tool and as a documentation example for a technical writing portfolio.
+
+---
+
+## Documentation
+
+Full documentation is available in the `/docs` directory.
+
+- [Documentation Index](docs/index.md)
+- [User Guide](docs/user-guide.md)
+- [Architecture](docs/architecture.md)
+- [Calculations](docs/calculations.md)
+- [Privacy](docs/privacy.md)
